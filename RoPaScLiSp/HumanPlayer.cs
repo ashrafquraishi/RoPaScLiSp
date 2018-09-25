@@ -9,7 +9,7 @@ namespace RoPaScLiSp
     class HumanPlayer : Player
     {
         // member variables
-        bool playagain = true;
+        
 
         // constructor
         public void player1(string Choose)

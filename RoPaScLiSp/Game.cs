@@ -12,7 +12,7 @@ namespace RoPaScLiSp
         public Player player1;
         public Player player2;
         public Gestures gestures;
-        bool PlayAgain = true;
+      
         int player1score = 0;
         int player2score = 0;
         int rnd = 3;
@@ -33,7 +33,7 @@ namespace RoPaScLiSp
                     HumanPlayer.makeChoice();
                     break;
                 case "2":
-                    Player.Main();
+                    Player.RandomGesturesCpu();
 
 
                     break;

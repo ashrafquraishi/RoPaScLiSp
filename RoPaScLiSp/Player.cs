@@ -9,12 +9,12 @@ namespace RoPaScLiSp
     class Player
     {
         public string choose;
-        bool Playagain = true;
+       
         public Player()
         {
 
         }
-        public static void Main()
+        public static void RandomGesturesCpu()
         {
             Random rnd = new Random();
             string[] RandomGestures = { "rock", "paper", "scissors", "lizard", "spock" };
